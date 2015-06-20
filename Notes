@@ -1,0 +1,13 @@
+Notes
+cd documents/Classes/Udacity/version-control/asteroids
+
+cd ~		Change to root directory
+subl		Shortcut to load sublime
+ls 			List files
+ls -a		List files including hidden ones
+git init	initiate git repository
+git log
+git status	status of repository
+git add		add file to staging area i.e. these are the files that will be logged when a commit is performed.
+
+
