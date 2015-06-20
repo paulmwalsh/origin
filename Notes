@@ -1,5 +1,7 @@
 Notes
 cd documents/Classes/Udacity/version-control/asteroids
+cd documents/Classes/Udacity/version-control/reflections
+
 
 cd ~		Change to root directory
 subl		Shortcut to load sublime
@@ -10,4 +12,4 @@ git log
 git status	status of repository
 git add		add file to staging area i.e. these are the files that will be logged when a commit is performed.
 
-
+git commit -m "Commit message"	commit with message
