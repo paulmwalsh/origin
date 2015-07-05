@@ -1,0 +1,30 @@
+Notes
+cd documents/Classes/Udacity/version-control/asteroids
+cd documents/Classes/Udacity/version-control/reflections
+
+
+cd ~		Change to root directory
+subl		Shortcut to load sublime
+ls 			List files
+ls -a		List files including hidden ones
+git init	initiate git repository
+git log
+q			exits git log
+git status	status of repository
+git add		add file to staging area i.e. these are the files that will be logged when a commit is performed.
+
+git commit -m "Commit message"	commit with message
+
+git diff			difference between working directory and staging area
+git diff --staged	difference between staging area and repository
+git reset --hard	discards changes in working directory and/or staging area (not reversible)
+git checkout master	??
+git branch			shows branches (* inddicates checkout out branch)
+git branch name		creates new branch
+git checkout name	switches branch to name
+git log --graph --oneline branch1 branch2	compares two branches
+git merge branch1 branch2
+git branch -d branch1	deletes branch name (underlying commits still there)
+git remote			lists remote repositories
+git remote add name address
+
